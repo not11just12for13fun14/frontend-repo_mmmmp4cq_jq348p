@@ -3,6 +3,10 @@ import BrandHeader from './components/BrandHeader'
 import ColorSystem from './components/ColorSystem'
 import Typography from './components/Typography'
 import BrandVoice from './components/BrandVoice'
+import SlideDeck from './components/SlideDeck'
+import PrintMockups from './components/PrintMockups'
+import InstagramGrid from './components/InstagramGrid'
+import NewsletterExample from './components/NewsletterExample'
 
 function App() {
   return (
@@ -16,10 +20,14 @@ function App() {
           <ColorSystem />
           <Typography />
           <BrandVoice />
+          <SlideDeck />
+          <PrintMockups />
+          <InstagramGrid />
+          <NewsletterExample />
         </div>
 
         <footer className="pt-4 text-center text-xs text-slate-400">
-          Make it yours: replace samples with your logo, colors, and copy.
+          Personnalisez: logo, couleurs, typographies et exemples. Ajoutez vos contenus.
         </footer>
       </main>
     </div>
